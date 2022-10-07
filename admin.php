@@ -166,6 +166,7 @@
 	</section>
 
 	<?php include 'ArraysFunctions\\arraysfunctions.php'; ?>
+	<?php include ('dbcon.php');?>
 	<!-- Portfolio Grid-->
 	<section class="page-section bg-light" id="course">
 		<div class="container">
@@ -248,6 +249,7 @@
 	</section>
 
 	<?php include 'ArraysFunctions\\arraysfunctions.php'; ?>
+	<?php include ('dbcon.php');?>
 	<!-- Team-->
 	<section class="page-section bg-light" id="timetable">
 		<div class="container">
