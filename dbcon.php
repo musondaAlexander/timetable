@@ -16,7 +16,7 @@
 
     //-----------------------------------------------------------------------
 
-		// For the Digital Ocean Connection
+	// For the Digital Ocean Connection
 
 		// $servername = "localhost";
 		// $username = "alex"  ;
