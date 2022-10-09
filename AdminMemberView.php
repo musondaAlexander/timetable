@@ -102,10 +102,10 @@
 			*/
     ?>
 
-    <?php include 'View\\view.php'; ?>
-    <?php include 'ArraysFunctions\\arraysfunctions.php'; ?>
-    <?php include 'Course\course.php'; ?>
-    <?php include 'dbcon.php'; ?>
+    <?php include 'View//view.php'; ?>
+    <?php include 'ArraysFunctions//arraysfunctions.php'; ?>
+    <?php include 'Course//Course.php'; ?>
+    <?php include ('dbcon.php'); ?>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">

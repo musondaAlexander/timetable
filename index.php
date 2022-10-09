@@ -8,13 +8,13 @@
 
 </head>
 <body>
-	<!-- <?php include "Create Table\\CreateTable.php"; ?> -->
+	<!-- <?php //include "Create Table\\CreateTable.php"; ?> -->
     <section>
     <div class="box">
         <div class="form" >
 			<center>  <h2 style="margin-top:-50px">Login</h2></center>
             <?php include 'validate.php';?>
-			<form method="post">
+			<form method="post" action = "validate.php">
                 <div class="inputBx">
                     <input type="text" name="id" placeholder="CMS-ID" value="<?php if(isset($_COOKIE["member_login"])) { echo $_COOKIE["member_login"]; } ?>">
                     <img src="Login//user.png" width="25">

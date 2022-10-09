@@ -34,13 +34,13 @@
 			}*/
 	?>
 	<!-- Navigation-->
-	<?php include "Create Table\\CreateTable.php"; ?>
-	<?php include 'Instructor\\Instructor.php'; ?>
-	<?php include 'Department\\Department.php'; ?>
-	<?php include 'TimeTable\\TimeTable.php'; ?>
-	<?php include 'Course\\Course.php'; ?>
-	<?php include 'Registration\\Registration.php'; ?>
-	<?php include 'ArraysFunctions\\arraysfunctions.php'; ?>
+	<?php include "Create Table//CreateTable.php"; ?>
+	<?php include 'Instructor//Instructor.php'; ?>
+	<?php include 'Department//Department.php'; ?>
+	<?php include 'Timetable//TimeTable.php'; ?>
+	<?php include 'Course//Course.php'; ?>
+	<?php include 'Registration//Registration.php'; ?>
+	<?php include 'ArraysFunctions//arraysfunctions.php'; ?>
 	<?php include ('dbcon.php');?>
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 		<div class="container">
@@ -165,7 +165,7 @@
 
 	</section>
 
-	<?php include 'ArraysFunctions\\arraysfunctions.php'; ?>
+	<?php include 'ArraysFunctions//arraysfunctions.php'; ?>
 	<?php include ('dbcon.php');?>
 	<!-- Portfolio Grid-->
 	<section class="page-section bg-light" id="course">
@@ -248,7 +248,7 @@
 			</center>
 	</section>
 
-	<?php include 'ArraysFunctions\\arraysfunctions.php'; ?>
+	<?php include 'ArraysFunctions//arraysfunctions.php'; ?>
 	<?php include ('dbcon.php');?>
 	<!-- Team-->
 	<section class="page-section bg-light" id="timetable">

@@ -18,12 +18,12 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-		<?php include 'Update/Update.php';?>
-		<?php include 'Instructor\\Instructor.php';?>
-		<?php include 'Department\\Department.php';?>
-		<?php include 'TimeTable\\TimeTable.php';?>
-		<?php include 'Course\\Course.php';?>
-		<?php include 'ArraysFunctions\\arraysfunctions.php';?>
+		<?php include 'Update//Update.php';?>
+		<?php include 'Instructor//Instructor.php';?>
+		<?php include 'Department//Department.php';?>
+		<?php include 'Timetable//TimeTable.php';?>
+		<?php include 'Course//Course.php';?>
+		<?php include 'ArraysFunctions//arraysfunctions.php';?>
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

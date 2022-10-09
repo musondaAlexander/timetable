@@ -1,12 +1,12 @@
 <?php
-
+   ob_start();
    include ('dbcon.php');
 
 	// $servername = "localhost";
 	// $username = "alex";
 	// $password = "alEx2022zuct";
 	// $dbname = "timetabledata";
-	session_start() ;
+	//session_start() ;
 	if(isset($_POST["login"])){
 		$_SESSION["id"] = $_POST["id"] ;
 		$_SESSION["password"] = $_POST["password"] ;
@@ -24,9 +24,8 @@
 					}
 				}
 				$_SESSION['position'] = 'Admin' ;
-				header('Location:admin.php');
-			}elseif($id == 'Admin' && $pas !== "Admin"){
-				echo(" Wrong password");
+			  	header('Location:admin.php');
+			  	ob_end_flush();
 			}
 			
 			// $conn = new mysqli($servername, $username, $password, $dbname);
@@ -57,6 +56,7 @@
 					if($userpos=="Admin"){
 						$_SESSION['position'] = 'Admin' ;
 						header('Location:admin.php');
+						ob_end_flush();
 					}
 					else if($userpos=="Student"){
 						$_SESSION['position'] = 'Student' ;
@@ -64,9 +64,7 @@
 					}
 					else if($userpos=="Instructor"){
 						$_SESSION['position'] = 'Instructor' ;
-						header('Location:instructorView.php');
-					}
-					
+						header('Location:instructorView.php');}
 				}
 				 
 				}
